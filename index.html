@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+
+    <nav id="navbar">
+
+        <div class="logo">MyLogo</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn" id="menuBtn">☰</div>
+
+    </nav>
+
+    <!-- Home -->
+
+    <section id="home">
+
+        <h1>Interactive Navigation Menu</h1>
+
+        <p>
+            A responsive landing page with a navigation menu
+            that changes color when scrolling and changes style
+            when hovering over a menu item.
+        </p>
+
+        <a href="#about" class="btn">
+            Explore More
+        </a>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            This section demonstrates scrolling behavior.
+            The navigation menu remains fixed at the top.
+        </p>
+
+        <p>
+            Scroll the page to see the navigation bar
+            change color.
+        </p>
+
+        <p>
+            Hover over the menu items to see the hover effect.
+        </p>
+
+    </section>
+
+    <!-- Services -->
+
+    <section id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>Responsive and modern UI design.</p>
+            </div>
+
+            <div class="card">
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS and JavaScript solutions.</p>
+            </div>
+
+            <div class="card">
+                <h3>UI / UX Design</h3>
+                <p>Interactive user experiences.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                rows="5"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
